@@ -83,7 +83,8 @@ public class TaskScheduler {
         do {
             System.out.println("Task ID: " + temp.taskId + ", Name: " + temp.taskName + ", Priority: " + temp.priority + ", Due Date: " + temp.dueDate);
             temp = temp.next;
-        } while (temp != head);
+        } 
+            while (temp != head);
     }
 
     // Search for a task by priority
@@ -100,13 +101,13 @@ public class TaskScheduler {
                 found = true;
             }
             temp = temp.next;
-        } while (temp != head);
+        } 
+            while (temp != head);
         if (!found) {
             System.out.println("No tasks found with priority " + priority);
         }
     }
 
-    // Driver code
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         TaskScheduler scheduler = new TaskScheduler();
