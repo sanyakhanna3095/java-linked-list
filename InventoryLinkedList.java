@@ -120,7 +120,7 @@ public class InventoryLinkedList {
         }
     }
 
-    // Driver code
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         InventoryLinkedList list = new InventoryLinkedList();
