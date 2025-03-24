@@ -1,6 +1,5 @@
 import java.util.*;
 
-// Java program to implement Online Ticket Reservation System using Circular Linked List
 public class TicketReservationSystem {
     TicketNode head = null;
 
@@ -120,7 +119,6 @@ public class TicketReservationSystem {
         return count;
     }
 
-    // Driver code
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         TicketReservationSystem system = new TicketReservationSystem();
