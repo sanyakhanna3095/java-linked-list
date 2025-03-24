@@ -1,7 +1,6 @@
 import java.io.*;
 import java.util.*;
 
-// Java program to implement a Singly Linked List for Social Media Friend Connections
 public class SocialMediaLinkedList {
     // Head of list
     UserNode head;
@@ -76,7 +75,8 @@ public class SocialMediaLinkedList {
             user1.friendIds.remove(Integer.valueOf(userId2));
             user2.friendIds.remove(Integer.valueOf(userId1));
             System.out.println("Friend connection removed between " + userId1 + " and " + userId2);
-        } else {
+        } 
+        else {
             System.out.println("One or both users not found.");
         }
     }
@@ -126,7 +126,6 @@ public class SocialMediaLinkedList {
         }
     }
 
-    // Driver code
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         SocialMediaLinkedList list = new SocialMediaLinkedList();
