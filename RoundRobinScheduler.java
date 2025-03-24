@@ -119,7 +119,6 @@ public class RoundRobinScheduler {
         while (temp != head);
     }
 
-    // Driver code
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter time quantum: ");
