@@ -135,7 +135,6 @@ public class LibraryManagementSystem {
         System.out.println("Title: " + book.title + ", Author: " + book.author + ", Genre: " + book.genre + ", Book ID: " + book.bookID + ", Available: " + book.isAvailable);
     }
 
-    // Driver code
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         LibraryManagementSystem library = new LibraryManagementSystem();
