@@ -120,7 +120,7 @@ public class MovieManagementSystem {
         System.out.println("Title: " + movie.title + ", Director: " + movie.director + ", Year: " + movie.year + ", Rating: " + movie.rating);
     }
 
-    // Driver code
+    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         MovieManagementSystem movieList = new MovieManagementSystem();
