@@ -82,7 +82,7 @@ public class TextEditorUndoRedo {
         }
     }
 
-    // Driver code
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         TextEditorUndoRedo editor = new TextEditorUndoRedo();
